@@ -68,9 +68,9 @@ p {
     transition: all 0.4s;
     filter: blur(3px);
     -webkit-filter: blur(3px);
-    top: 110px;
-    right: 30px;
-    width: 120px;
+    top: 125px;
+    right: 25px;
+    width: 100px;
     position: absolute;
     z-index: -1;
 }
@@ -78,7 +78,8 @@ p {
 .headericon {
     width: 90px;
     height: 70px;
-    background-image: linear-gradient(to bottom right, #01a1fd, #00b0fc);    border-radius: 6% 0% 84% 4% / 5% 19% 93% 7%;
+    background-image: linear-gradient(to bottom right, #01a1fd, #00b0fc);
+    border-radius: 6% 0% 84% 4% / 5% 19% 93% 7%;
     position: relative;
     transition: all 0.4s;
 }
@@ -129,10 +130,12 @@ p {
 
 .servicescard_item:hover h4 {
     color: #fff;
+    cursor: default;
 }
 
 .servicescard_item:hover p {
     color: #fff;
+    cursor: default;
 }
 
 .detailbutton {
@@ -146,7 +149,8 @@ p {
     border-radius: 50%;
     position: relative;
     top: 25px;
-    left: 40%;
+    left: 50%;
+    margin-left: -25px;
     background-color: #f0f6f9;
     transition: all 0.2s;
 }
