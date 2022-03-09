@@ -1,5 +1,4 @@
 * {
-    /* width: 1170px; */
     padding: 0;
     font-size: 14px;
 }
@@ -15,7 +14,7 @@ li {
 }
 
 .container {
-    margin: auto;
+    max-width: 1170px;
     padding: 0;
 }
 
@@ -23,14 +22,14 @@ li {
     height: 75px;
     display: flex;
     align-items: center;
-    background-color: #f0f4f8;
+    
     justify-content: space-between;
     color: #47474c;
 }
 
 .maincontent {
     background-color: #fff;
-    margin: 80px 0 30px;
+    margin: 80px 10px 30px;
     text-align: center;
 }
 
@@ -67,8 +66,8 @@ p {
 .fade_background {
     opacity: 0;
     transition: all 0.4s;
-    filter: blur(2px);
-    -webkit-filter: blur(2px);
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
     top: 110px;
     right: 30px;
     width: 120px;
@@ -77,7 +76,7 @@ p {
 }
 
 .headericon {
-    width: 100px;
+    width: 90px;
     height: 70px;
     background-image: linear-gradient(to bottom right, #01a1fd, #00b0fc);    border-radius: 6% 0% 84% 4% / 5% 19% 93% 7%;
     position: relative;
