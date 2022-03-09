@@ -66,8 +66,8 @@ p {
 .fade_background {
     opacity: 0;
     transition: all 0.5s;
-    filter: blur(3px);
-    -webkit-filter: blur(3px);
+    filter: blur(2.5px);
+    -webkit-filter: blur(2.5px);
     top: 125px;
     right: 25px;
     width: 100px;
@@ -88,10 +88,6 @@ p {
     background-image: linear-gradient(to bottom right, #fff, #fff);
 }
 
-.first {
-    transition: all 0.5s;
-}
-
 .second {
     position: absolute;
     left: 0;
@@ -105,7 +101,6 @@ p {
 
 .servicescard_item:hover .second{
     opacity: 1;
-    transform: scale(1.1);
 }
 
 .headericon:after {
