@@ -12,6 +12,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
         integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Istok+Web&display=swap" rel="stylesheet">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/services.css">
     <title>Danh Sách Dịch Vụ</title>
@@ -19,201 +24,125 @@
 
 <body>
     <div style="background-color: #f0f4f8;">
-        <div class="hk_breadcrumb" style="width: 100%; max-width: 1170px; margin: 0 auto; padding: 0 10px;">
+        <!--Start breadcrumb-->
+        <div class="hk_breadcrumb">
             <div class="hk_breadcrumb_left">
-                <span style="font-weight: 500;"><span class="dot"></span> Services</span>
+                <span><span class="hk_breadcrumb__dot"></span> Services</span>
             </div>
             <div class="hk_breadcrumb_right">
-                <ul>
+                <ul class="hk_menu">
                     <li>Home</li>
-                    <li style="color: #028bfe; margin-left: 5px;"><i
+                    <li><i
                             class="fa-solid fa-angle-right"></i>&nbsp;&nbsp;Services</li>
                 </ul>
             </div>
         </div>
+        <!--End breadcrumb-->
     </div>
     <div class="container">
+        <!--Start main content-->
         <div class="maincontent">
+            <!--Title-->
             <div class="topheader">
-                <p style="color: #028bfe; margin: 0;">WHAT WE SERVE</p>
-                <h2 style="font-weight: 700;">Our Services</h2>
+                <p>WHAT WE SERVE</p>
+                <h2>Our Services</h2>
             </div>
-            <!-- <div class="servicescard row">
-                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                    <div class="servicescard_item">
-                        <div class="headericon">
-                            <img class="first" src="icon/marketing-white.png" alt="">
-                            <img class="second" src="icon/marketing-blue.png" alt="">
-                        </div>
-                        <div class="carddetail">
-                            <h4>Digital Marketing</h4>
-                            <p>Distinctively communicate areexcellent content and ubiquileApp have become
-                                Synergistically with</p>
-                        </div>
-                        <img class="fade_background" src="icon/marketing-white.png" alt="">
-                        <a href="#" class="detailbutton"><i class="fa-solid fa-angle-right"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                    <div class="servicescard_item">
-                        <div class="headericon">
-                            <img class="first" src="icon/web-white.png" alt="">
-                            <img class="second" src="icon/web-blue.png" alt="">
-                        </div>
-                        <div class="carddetail">
-                            <h4>Web Development</h4>
-                            <p>Conveniently predominate sticky ali than low risk high yield methods of emp brand
-                                superior techno</p>
-                        </div>
-                        <img class="fade_background" src="icon/web-white.png" alt="">
-                        <a href="#" class="detailbutton"><i class="fa-solid fa-angle-right"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                    <div class="servicescard_item">
-                        <div class="headericon">
-                            <img class="first" src="icon/applicant-white.png" alt="">
-                            <img class="second" src="icon/applicant-blue.png" alt="">
-                        </div>
-                        <div class="carddetail">
-                            <h4>Apps Design</h4>
-                            <p>Energistically target dynamic technolog content and ubiquileApp have become future-proof
-                                value</p>
-                        </div>
-                        <img class="fade_background" src="icon/applicant-white.png" alt="">
-                        <a href="#" class="detailbutton"><i class="fa-solid fa-angle-right"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="servicescard row">
-                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                    <div class="servicescard_item">
-                        <div class="headericon">
-                            <img class="first" src="icon/hand-with-pen-white.png" alt="">
-                            <img class="second" src="icon/hand-with-pen-blue.png" alt="">
-                        </div>
-                        <div class="carddetail">
-                            <h4>Graphic Design</h4>
-                            <p>Conveniently predominate sticky ali than low risk high yield methods of emp brand
-                                superior techno</p>
-                        </div>
-                        <img class="fade_background" src="icon/hand-with-pen-white.png" alt="">
-                        <a href="#" class="detailbutton"><i class="fa-solid fa-angle-right"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                    <div class="servicescard_item">
-                        <div class="headericon">
-                            <img class="first" src="icon/development-skill-white.png" alt="">
-                            <img class="second" src="icon/development-skill-blue.png" alt="">
-                        </div>
-                        <div class="carddetail">
-                            <h4>Custom Soft Dev</h4>
-                            <p>Holisticly strategize standardized manu products for dynamic expertise. Rapidio equity
-                                invested synergy</p>
-                        </div>
-                        <img class="fade_background" src="icon/development-skill-white.png" alt="">
-                        <a href="#" class="detailbutton"><i class="fa-solid fa-angle-right"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                    <div class="servicescard_item">
-                        <div class="headericon">
-                            <img class="first" src="icon/online-payment-white.png" alt="">
-                            <img class="second" src="icon/online-payment-blue.png" alt="">
-                        </div>
-                        <div class="carddetail">
-                            <h4>e-Commerce Services</h4>
-                            <p>Distinctively communicate areexcellent content and ubiquileApp have become
-                                Synergistically with</p>
-                        </div>
-                        <img class="fade_background" src="icon/online-payment-white.png" alt="">
-                        <a href="#" class="detailbutton"><i class="fa-solid fa-angle-right"></i></a>
-                    </div>
-                </div>
-            </div> -->
-
-            <div class="servicescard" style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; padding: 0 10px;">
+            <!--End Title-->
+            <div class="servicescard">
+                <!--Card-->
                 <div class="servicescard_item">
+                    <!--Card header-->
                     <div class="headericon">
-                        <img class="first" src="icon/marketing-white.png" alt="">
-                        <img class="second" src="icon/marketing-blue.png" alt="">
+                        <img class="headericonfirst" src="icon/digital_marketing.png" alt="">
+                        <img class="second" src="icon/digital_marketing_color.png" alt="">
                     </div>
+                    <!--End card header-->
+                    <!--Card section-->
                     <div class="carddetail">
                         <h4>Digital Marketing</h4>
                         <p>Distinctively communicate areexcellent content and ubiquileApp have become
                             Synergistically with</p>
                     </div>
-                    <img class="fade_background" src="icon/marketing-white.png" alt="">
+                    <!--End card section-->
+                    <!--Fade background while hover-->
+                    <img class="fade_background" src="icon/digital_marketing.png" alt="">
+                    <!--Button-->
                     <a href="#" class="detailbutton"><i class="fa-solid fa-angle-right"></i></a>
                 </div>
+                <!--Card-->
                 <div class="servicescard_item">
                     <div class="headericon">
-                        <img class="first" src="icon/web-white.png" alt="">
-                        <img class="second" src="icon/web-blue.png" alt="">
+                        <img class="first" src="icon/web_develop.png" alt="">
+                        <img class="second" src="icon/web_development.png" alt="">
                     </div>
                     <div class="carddetail">
                         <h4>Web Development</h4>
                         <p>Conveniently predominate sticky ali than low risk high yield methods of emp brand
                             superior techno</p>
                     </div>
-                    <img class="fade_background" src="icon/web-white.png" alt="">
+                    <img class="fade_background" src="icon/web_develop.png" alt="">
                     <a href="#" class="detailbutton"><i class="fa-solid fa-angle-right"></i></a>
                 </div>
+                <!--Card-->
                 <div class="servicescard_item">
                     <div class="headericon">
-                        <img class="first" src="icon/applicant-white.png" alt="">
-                        <img class="second" src="icon/applicant-blue.png" alt="">
+                        <img class="first" src="icon/app_design.png" alt="">
+                        <img class="second" src="icon/app_design_color.png" alt="">
                     </div>
                     <div class="carddetail">
                         <h4>Apps Design</h4>
                         <p>Energistically target dynamic technolog content and ubiquileApp have become future-proof
                             value</p>
                     </div>
-                    <img class="fade_background" src="icon/applicant-white.png" alt="">
+                    <img class="fade_background" src="icon/app_design.png" alt="">
                     <a href="#" class="detailbutton"><i class="fa-solid fa-angle-right"></i></a>
                 </div>
+                <!--Card-->
                 <div class="servicescard_item">
                     <div class="headericon">
-                        <img class="first" src="icon/marketing-white.png" alt="">
-                        <img class="second" src="icon/marketing-blue.png" alt="">
+                        <img class="first" src="icon/graphic_design.png" alt="">
+                        <img class="second" src="icon/graphic_design_color.png" alt="">
                     </div>
                     <div class="carddetail">
-                        <h4>Digital Marketing</h4>
+                        <h4>Graphic Design</h4>
                         <p>Distinctively communicate areexcellent content and ubiquileApp have become
                             Synergistically with</p>
                     </div>
-                    <img class="fade_background" src="icon/marketing-white.png" alt="">
+                    <img class="fade_background" src="icon/graphic_design.png" alt="">
                     <a href="#" class="detailbutton"><i class="fa-solid fa-angle-right"></i></a>
                 </div>
+                <!--Card-->
                 <div class="servicescard_item">
                     <div class="headericon">
-                        <img class="first" src="icon/web-white.png" alt="">
-                        <img class="second" src="icon/web-blue.png" alt="">
+                        <img class="first" src="icon/custom_dev.png" alt="">
+                        <img class="second" src="icon/custom_dev_color.png" alt="">
                     </div>
                     <div class="carddetail">
-                        <h4>Web Development</h4>
+                        <h4>Custom Soft Dev</h4>
                         <p>Conveniently predominate sticky ali than low risk high yield methods of emp brand
                             superior techno</p>
                     </div>
-                    <img class="fade_background" src="icon/web-white.png" alt="">
+                    <img class="fade_background" src="icon/custom_dev.png" alt="">
                     <a href="#" class="detailbutton"><i class="fa-solid fa-angle-right"></i></a>
                 </div>
+                <!--Card-->
                 <div class="servicescard_item">
                     <div class="headericon">
-                        <img class="first" src="icon/applicant-white.png" alt="">
-                        <img class="second" src="icon/applicant-blue.png" alt="">
+                        <img class="first" src="icon/ecommerce.png" alt="">
+                        <img class="second" src="icon/ecommerce_color.png" alt="">
                     </div>
                     <div class="carddetail">
-                        <h4>Apps Design</h4>
+                        <h4>e-Commerce Service</h4>
                         <p>Energistically target dynamic technolog content and ubiquileApp have become future-proof
                             value</p>
                     </div>
-                    <img class="fade_background" src="icon/applicant-white.png" alt="">
+                    <img class="fade_background" src="icon/ecommerce.png" alt="">
                     <a href="#" class="detailbutton"><i class="fa-solid fa-angle-right"></i></a>
                 </div>
+                <!--End card-->
             </div>
         </div>
+        <!--End Main content-->
     </div>
 
     <!-- Bootstrap Bundle with Popper -->
